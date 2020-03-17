@@ -55,6 +55,10 @@ jobs:
     - name: Clone source code
       run: git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
 
+#=================================================
+    - name: add Lienol packages
+      run: cd openwrt && echo "src-git lienol https://github.com/Lienol/openwrt-package" >> feeds.conf.default && cat feeds.conf.default
+#=================================================   
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
