@@ -8,3 +8,4 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.100.240/g' package/base-files/files/bin/config_generate
 #src-git lienol https://github.com/Lienol/openwrt-package
+git clone https://github.com/vernesong/OpenClash                                 package/clash
