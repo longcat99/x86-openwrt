@@ -11,6 +11,4 @@ sed -i 's/192.168.1.1/192.168.100.240/g' package/base-files/files/bin/config_gen
 git clone https://github.com/vernesong/OpenClash                                 package/clash
 git clone https://github.com/rufengsuixing/luci-app-adguardhome                  package/adguardhome
 git clone https://github.com/tzxiaozhen88/koolproxyR                         package/koolproxyR
-git clone https://github.com/ElonH/Rclone-OpenWrt/tree/master/luci-app-rclone        package/luci-app-rclone
-git clone https://github.com/ElonH/Rclone-OpenWrt/tree/master/rclone-webui-react     package/rclone-webui-react
-git clone https://github.com/ElonH/Rclone-OpenWrt/tree/master/rclone                 package/rclone
+git clone https://github.com/ElonH/Rclone-OpenWrt                 package/rclone
