@@ -12,3 +12,4 @@ git clone https://github.com/vernesong/OpenClash                                
 git clone https://github.com/rufengsuixing/luci-app-adguardhome                  package/adguardhome
 git clone https://github.com/tzxiaozhen88/koolproxyR                         package/koolproxyR
 git clone https://github.com/ElonH/Rclone-OpenWrt                 package/rclone
+git clone https://github.com/frainzy1477/luci-app-clash           package/luci-app-clash
