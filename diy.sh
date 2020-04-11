@@ -14,4 +14,5 @@ git clone https://github.com/tzxiaozhen88/koolproxyR                         pac
 git clone https://github.com/ElonH/Rclone-OpenWrt                 package/rclone
 git clone https://github.com/frainzy1477/luci-app-clash           package/luci-app-clash
 git clone https://github.com/jerrykuku/luci-theme-argon           package/luci-theme-argon
-git clone https://github.com/pymumu/smartdns/tree/master/package                      package/smartdns
+git clone https://github.com/pymumu/luci-app-smartdns                      package/luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns                       package/openwrt-smartdns
