@@ -60,7 +60,7 @@ jobs:
 
 #=================================================
     - name: add Lienol packages
-      run: cd openwrt && echo "src-git lienol https://github.com/longcat99/openwrt-package" >> feeds.conf.default && cat feeds.conf.default
+      run: cd openwrt && echo "src-git lienol https://github.com/longcat99/package" >> feeds.conf.default && cat feeds.conf.default
 #=================================================   
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
